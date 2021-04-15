@@ -1,0 +1,34 @@
+:root {
+	--darker-grey: rgb(43, 43, 43);
+	--dark-grey: rgb(51, 51, 51);
+	--secondary-grey: rgb(135, 135, 135);
+	--primary-grey: rgb(170, 170, 170);
+	--button-hover: rgb(217, 209, 209);
+}
+
+html {
+	background-color: var(--dark-grey);
+	font-size: 1rem;
+	font-family: 'Montserrat', sans-serif;
+	align-self: center;
+	align-content: center;
+	align-items: center;
+	max-width: 100vw;
+	max-height: auto;
+}
+
+input {
+	width: 60%;
+	line-height: 1.25rem;
+	margin: .25rem;
+	margin-left: 4.5rem;
+	float: left;
+	border-radius: 0.5rem;
+	text-align: left;
+	padding: 0.5rem;
+	font-size: 1rem;
+	background: var(--secondary-grey);
+	color: black;
+}
+
+

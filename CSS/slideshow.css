@@ -1,0 +1,173 @@
+/* GALLERY ---- Slideshow container */
+.gallery_container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.slideshow-container {
+	overflow: hidden;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+/* Hide the images by default */
+.mySlides {
+	display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+	cursor: pointer;
+	position: relative;
+	margin: 0;
+	top: 50%;
+	width: auto;
+	padding: 16px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/5 etc) */
+.numbertext {
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+	background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+	from {
+		opacity: .4
+	}
+
+	to {
+		opacity: 1
+	}
+}
+
+@keyframes fade {
+	from {
+		opacity: .4
+	}
+
+	to {
+		opacity: 1
+	}
+}
+
+/* END GALLERY ---- Slideshow container */
+
+@media (max-width: 1000px) {
+
+	/* Banner part
+	.grid {
+		margin-top: 0em;
+		align-items: center;
+	}
+
+	.header {
+		color: white;
+		opacity: 0.6;
+		margin-top: 0.5em;
+		margin-bottom: -0.3em;
+		padding-left: 0.5em;
+		font-size: 3em;
+	}
+
+	ul {
+		padding: 0.5em;
+	}
+
+	li a {
+		display: block;
+		color: var(--dark-grey);
+		padding-left: 0em;
+		padding-right: 400em;
+		font-size: 0.8em;
+		text-align: left;
+		text-decoration: none;
+	} */
+
+	.grid_div {
+		width: 10%;
+	}
+
+	img {
+		width: 800px;
+		height: 450px;
+	}
+
+}
+
+/*end @media 1000px*/
+@media (max-width: 800px) {
+	.grid_div {
+		width: 6%;
+	}
+
+	img {
+		width: 500px;
+		height: 250px;
+	}
+
+
+}
+
+@media (max-width: 300px) {
+	.grid_div {
+		width: 3%;
+	}
+
+	img {
+		width: 250px;
+		height: 150px;
+	}
+
+}

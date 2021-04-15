@@ -1,0 +1,78 @@
+
+:root {
+	--darker-grey: rgb(43, 43, 43);
+	--dark-grey: rgb(51, 51, 51);
+	--secondary-grey: rgb(135, 135, 135);
+	--primary-grey: rgb(170, 170, 170);
+	--button-hover: rgb(217, 209, 209);
+}
+
+/* CONTACT UP PAGE */
+
+
+.page_title {
+	text-align: left;
+	padding: 2rem 0rem 2rem 3.5rem;
+}
+
+.post_contact {
+  display: block;
+  min-height: 550px;
+  background-color: var(--secondary-grey);
+  max-width: 100%;
+  padding: 1rem;
+}
+
+.contact_form {
+  display: block;
+  max-width: 100%;
+  padding: 1rem;
+  float: left;
+}
+
+.input_form {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  background-color: white;
+  margin-left: 2.5rem;
+	line-height: 1.25rem;
+	border-radius: 0.5rem;
+	text-align: left;
+	padding: 0.5rem;
+	font-size: 1rem;
+	color: black;
+}
+
+#textarea_form {
+  height: 8rem;
+  max-lines: 4;
+}
+
+.button_form {
+	width: 120px;
+	min-height: 40px;
+	border-radius: 0.5rem;
+  border-style: none;
+  margin-top: 2rem;
+  margin-left: 2.5rem;
+	text-align: center;
+	padding: 0.5rem;
+	font-size: 1rem;
+	background: var(--darker-grey);
+  color: white;
+  cursor: pointer;
+}
+
+.button_form:hover {
+  background-color: var(--button-hover);
+  color: var(--darker-grey);
+}
+
+span {
+  color: rgb(160, 22, 22);  
+  margin-top: 1.5rem;
+  margin-left: 2.5rem;
+}
+

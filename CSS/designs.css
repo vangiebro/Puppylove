@@ -1,0 +1,75 @@
+/*
+  Final Project - COP 2830C – Scripting Languages
+	 Author: Fernanda Frederico Ribeiro da Silva
+	 Date:10/01/2020
+
+   Filename: designs.css
+
+   This file design style used by all screen sizes
+
+*/
+/* =============================================
+	Base styles used by All Screens
+   =============================================
+*/
+
+:root {
+	--darker-grey: rgb(43, 43, 43);
+	--dark-grey: rgb(51, 51, 51);
+	--secondary-grey: rgb(135, 135, 135);
+	--primary-grey: rgb(170, 170, 170);
+	--button-hover: rgb(217, 209, 209);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: var(--secondary-grey);
+	font-size: 1rem;
+	font-family: 'Montserrat', sans-serif;
+	align-self: center;
+	align-content: center;
+	align-items: center;
+	max-width: 100vw;
+	max-height: auto;
+}
+
+.grid_div {
+	display: grid;
+	align-self: center;
+	grid-template-columns: 15% 70% 15%;
+	grid-template-areas: "lateral post lateral"
+}
+
+/*middle part*/
+.grid_div {
+	background-color: var(--darker-grey);
+}
+
+.post {
+	height: auto;
+	grid-column-start: 2;
+	grid-column-end: 2;
+	align-content: center;
+	text-align: center;
+	background-color: var(--secondary-grey);
+}
+
+.lateral {
+	display: inline-block;
+	background-color: var(--darker-grey);
+}
+
+/* Vangie's code */
+
+.products_div {
+	padding: 85px;
+}
+
+.au_div {
+	padding: 25px;
+}
