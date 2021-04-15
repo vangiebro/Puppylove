@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Home&Styles</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width-device-width, initial-scale=1">
+
+  <!-- LOCAL STYLES -->
+  <link rel="stylesheet" type="text/css" href="CSS/designs.css" media="all">
+  <link rel="stylesheet" type="text/css" href="CSS/footer.css" media="all">
+  <link rel="stylesheet" type="text/css" href="CSS/navbar.css" media="all">
+  <link rel="stylesheet" type="text/css" href="CSS/slideshow.css" media="all">
+
+  <!-- HOSTED STYLES -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+  <!-- HOSTED SCRIPTS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- LOCAL SCRIPTS -->
+  <script src="JS/index.js"></script>
+</head>
+
+<body>
+  <div class="grid">
+
+    <!-- NAVBAR -->
+    <div id="navbar"></div>
+    <!-- END - NAVBAR -->
+
+    <!-- CONTENT SECTION -->
+    <div class="grid_div">
+      <div class="lateral"></div>
+      <div class="post">
+
+        <!-- SLIDESHOW -->
+        <!-- <div id="slideshow"></div> -->
+        <div class="gallery_container">
+          <!-- Slideshow container -->
+          <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 5</div>
+              <a href="#"><img src="Images/IMG_0.jpg" alt="Products_Page_01" style="width:944px; height:600px;"></a>
+            </div>
+
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 5</div>
+              <a href="#"><img src="Images/IMG_1.jpg" alt="Products_Page_02" style="width:944px; height:600px;"></a>
+            </div>
+
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 5</div>
+              <a href="#"><img src="Images/IMG_2.jpg" alt="Products_Page_01" style="width:944px; height:600px;"></a>
+            </div>
+
+            <div class="mySlides fade">
+              <div class="numbertext">4 / 5</div>
+              <a href="#"><img src="Images/IMG_3.jpg" alt="Products_Page_01" style="width:944px; height:600px;"></a>
+            </div>
+
+            <div class="mySlides fade">
+              <div class="numbertext">5 / 5</div>
+              <a href="#"><img src="Images/IMG_4.jpg" alt="Products_Page_01" style="width:944px; height:600px;"></a>
+            </div>
+
+            <div>
+              <!-- Next and previous buttons -->
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+              <!--dots -->
+              <div style="text-align:center; z-index:1;">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- END - SLIDESHOW -->
+
+      </div>
+      <div class="lateral"></div>
+    </div>
+    <!-- END - CONTENT SECTION -->
+  </div>
+
+  <!-- FOOTER -->
+  <div id="footer"></div>
+  <!-- END - FOOTER -->
+
+  <script src="JS/slideshow.js"></script>
+</body>
+
+</html>
